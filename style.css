@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 15% 40%;
+    grid-auto-rows: 30px;
+    row-gap: 10px;
+}
+.form>button{
+    margin: 2px 5px 2px 0;
+}
+
+.library{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px;
+    /*border: 1px solid black;*/
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.book>div{
+    display: flex;
+    align-items: center;
+    
+}
+.book>div>:nth-child(1){
+    font-size: large;
+    font-weight: bold;
+    margin-right: 10px;
+}
